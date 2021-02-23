@@ -8,13 +8,13 @@ Kyiv, **Ukraine** *(ready to relocate)*
 Hello! My name is Anastasiia, and I want to became a front-end developer. I always use my analitical skills and design thinking for solving tasks. Let's make a great project together!
 #### Work Experience
 * **Freelancer** (2021)
-web design
+  * web design
 
 * **BOSONfilm** (june 2020 — november 2020)
-production coordinator
+  * production coordinator
 
 * **LIMELITE** (january 2019 — june 2020)
-bidding-producer
+  * bidding-producer
 
 ### Hard Skills
 * HTML5;
