@@ -1,0 +1,330 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    margin: 0 1.5rem;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    color: #333333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0 0 1rem;
+
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* header */
+.header {
+    margin: 2rem auto 1rem;
+
+    display: flex;
+    max-width: 120rem;
+
+    font-size: 1.5rem;
+    color: #bdbdbd;
+}
+
+
+
+/* container */
+.container {
+    margin: 0 auto 3rem;
+
+    display: flex;
+    max-width: 120rem;
+
+    background: #f7f7f7;
+    box-shadow: .5rem 1rem 2rem rgba(3, 3, 3, .15);
+}
+
+
+
+/* sidebar */
+.sidebar {
+    padding: 3rem 0;
+
+    width: 30%;
+    
+    background: #a6a893;
+}
+
+
+/* photo */
+.photo__inner {
+    margin: 0 4rem 7rem;
+}
+
+.photo {
+    width: 28rem;
+    height: auto;
+}
+
+
+/* contacts */
+.contacts {
+    margin: 0 4rem;
+}
+
+
+.contacts__title {
+    margin-bottom: 1.5rem;
+
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+    color: #f7f7f7;
+
+    text-transform: uppercase;
+}
+
+.contacts__link-type {
+    margin-right: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #f7f7f7;
+
+    text-transform: uppercase;
+}
+
+.contacts__link {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #f3f3f3;
+
+    text-decoration: none;
+
+    transition: font-weight .1s linear;
+}
+
+.contacts__link:hover {
+    font-weight: 700;
+}
+
+
+/* skills */
+.skills {
+    margin: 6rem 4rem 0;
+}
+
+.skills__title {
+    margin-bottom: 1rem;
+
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+    color: #f7f7f7;
+
+    text-transform: uppercase;
+}
+
+.skills__item {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #f7f7f7;
+}
+
+ul {
+    margin: 0;
+}
+
+li::marker {
+    font-size: 2rem;
+    color: #fcc0c0;
+}
+
+
+/* about */
+.about {
+    width: 80%;
+    padding: 6rem 4rem 4rem;
+}
+
+.about__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    
+    color: #333333;
+
+    text-transform: uppercase;
+}
+
+.about__text {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+}
+
+.about__inner {
+    margin-bottom: 6rem;
+}
+
+
+/* name */
+.name {
+    margin-bottom: 8rem;
+
+}
+.name__title {
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    
+    color: #333333;
+
+    text-transform: uppercase;
+}
+
+.name__subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+
+    color: #868686;
+}
+
+
+/* work */
+.work__inner {
+    margin-bottom: 2rem;
+}
+.work__position {
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+    color: #333333;
+}
+
+.work__company {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    
+    color: #333333;
+
+    text-transform: uppercase;
+}
+
+.work__period {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+    color: #333333;
+}
+
+.wes-verification {
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    color: #333333;
+    text-decoration: none;
+
+    transition: font-weight .1s linear;
+}
+
+.wes-verification:hover {
+    font-weight: 700;
+}
+
+/* projects */
+.project__link {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    color: #333333;
+
+    text-decoration: none;
+
+    transition: font-weight .2s linear;
+}
+
+.project__link:hover {
+    font-weight: 700;
+}
+
+.project__dis {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    
+    color: #333333;
+
+}
+
+
+/* footer */
+.footer {
+    margin: 0 auto 8rem;
+    padding: 2rem 4rem ;
+
+    max-width: 120rem;
+
+    background: #a6a893;
+    box-shadow: .5rem 1rem 2rem rgba(3, 3, 3, .15);
+}
+
+.footer__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__credits {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+    color: #333333;
+}
+
+.footer__link {
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    
+    color: #333333;
+    text-decoration: none;
+}
+
+.footer__link:first-child {
+    margin-left: 0;
+}
+
+.footer__icon {
+    width: 3rem;
+    height: auto;
+}
+
+.footer__icon-rs {
+    width: 8rem;
+    height: auto;
+}
+
+.footer__date {
+    font-size: 1.5rem;
+    font-weight: 300;
+    
+    color: #f7f7f7;
+    text-decoration: none;
+}
