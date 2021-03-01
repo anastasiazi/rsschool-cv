@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://github.com/anastasiazi/rsschool-cv/cv.md
