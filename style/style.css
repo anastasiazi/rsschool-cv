@@ -177,6 +177,17 @@ li::marker {
     margin-bottom: 6rem;
 }
 
+.about__dis {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    
+    color: #8f8f8f;
+
+    text-transform: none;
+}
+
 
 /* name */
 .name {
@@ -268,9 +279,17 @@ li::marker {
     font-size: 1.5rem;
     font-weight: 400;
     
-    color: #333333;
-
+    color: #8f8f8f;
 }
+
+.project__inner {
+    margin-top: 1rem;
+}
+
+.project__inner:hover {
+    font-weight: 700;
+}
+
 
 
 /* footer */
