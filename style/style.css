@@ -177,6 +177,17 @@ li::marker {
     margin-bottom: 6rem;
 }
 
+.about__dis {
+    margin-left: .5rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: .2rem;
+    
+    color: #8f8f8f;
+
+    text-transform: none;
+}
+
 
 /* name */
 .name {
@@ -268,9 +279,17 @@ li::marker {
     font-size: 1.5rem;
     font-weight: 400;
     
-    color: #333333;
-
+    color: #8f8f8f;
 }
+
+.project__inner {
+    margin-top: 1rem;
+}
+
+.project__inner:hover {
+    font-weight: 700;
+}
+
 
 
 /* footer */
@@ -327,4 +346,110 @@ li::marker {
     
     color: #f7f7f7;
     text-decoration: none;
+}
+
+/* media */
+@media (width: 375px) {
+/* container */
+.container {
+    margin: 0 auto 3rem;
+    display: flex;
+    flex-wrap: wrap;
+
+    background: #f7f7f7;
+    box-shadow: .5rem 1rem 2rem rgba(3, 3, 3, .15);
+}
+
+/* about */
+.about {
+    width: 100%;
+    padding: 6rem 4rem 4rem;
+}
+
+    /* sidebar */
+.sidebar {
+    padding: 3rem 0;
+    width: 100%;    
+    background: #a6a893;
+}
+
+    /* photo */
+    .photo__inner {
+    margin: 0 1rem 5rem;
+    }
+
+    .photo {
+    width: 100%;
+    height: auto;
+    }
+
+    /* contacts */
+    .contacts {
+    margin: 0 4rem;
+    }
+
+
+    .contacts__title {
+    margin-bottom: 1rem;
+
+    font-size: 2rem;
+    font-weight: 00;
+    line-height: 2.5rem;
+    letter-spacing: .2rem;
+    color: #f7f7f7;
+
+    text-transform: uppercase;
+    }
+
+    .contacts__link-type {
+    margin-right: 1rem;
+
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 2.5rem;
+    color: #f7f7f7;
+
+    text-transform: uppercase;
+    }
+
+    .contacts__link {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #f3f3f3;
+
+    text-decoration: none;
+
+    transition: font-weight .1s linear;
+    }
+
+    .contacts__link:hover {
+    font-weight: 700;
+    }
+
+    /* name */
+.name {
+    margin-bottom: 6rem;
+
+}
+.name__title {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    
+    color: #333333;
+
+    text-transform: uppercase;
+}
+
+.name__subtitle {
+    font-size: 2rem;
+    font-weight: 400;
+
+    color: #868686;
+}
+
+
 }
