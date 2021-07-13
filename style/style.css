@@ -349,7 +349,7 @@ li::marker {
 }
 
 /* media */
-@media (width: 375px) {
+@media (max-width: 375px) {
 /* container */
 .container {
     margin: 0 auto 3rem;
